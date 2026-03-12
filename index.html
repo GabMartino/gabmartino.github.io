@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gabriele Martino | PhD Student</title>
+    <meta
+      name="description"
+      content="Personal academic website of Gabriele Martino, PhD student. Research updates, publications and blog posts."
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav">
+        <a class="brand" href="/">Gabriele Martino</a>
+        <nav class="nav-links">
+          <a href="#about">About</a>
+          <a href="#research">Research</a>
+          <a href="#publications">Publications</a>
+          <a href="blog/">Blog</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="intro" id="about">
+        <div class="intro-grid">
+          <div class="intro-text">
+            <h1>Gabriele Martino</h1>
+            <p class="subtitle">
+              I'm a PhD student in Computer Science working on trustworthy machine
+              learning and human-centered AI. This site is both my academic profile
+              and a long-form writing space inspired by research blogs.
+            </p>
+            <p>
+              My goal is to build models that are not only accurate, but also
+              transparent and useful for real-world decision-making. I enjoy
+              combining theory, empirical analysis, and scientific communication.
+            </p>
+            <p class="link-row">
+              <a href="mailto:you@example.com">Email</a>
+              ·
+              <a href="https://scholar.google.com" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+              ·
+              <a href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub</a>
+              ·
+              <a href="blog/">Blog</a>
+            </p>
+          </div>
+          <div class="intro-photo-wrap">
+            <img
+              class="intro-photo"
+              src="assets/images/profile-placeholder.svg"
+              alt="Profile portrait placeholder"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="research">
+        <h2>Research Interests</h2>
+        <div class="grid">
+          <article class="card">
+            <h3>Interpretability</h3>
+            <p>
+              Model introspection methods that help practitioners understand why a
+              model makes a prediction.
+            </p>
+          </article>
+          <article class="card">
+            <h3>Robustness</h3>
+            <p>
+              Training and evaluation strategies to improve resilience to shift,
+              noise and adversarial examples.
+            </p>
+          </article>
+          <article class="card">
+            <h3>Scientific Communication</h3>
+            <p>
+              Translating complex technical ideas into structured and accessible
+              blog posts for students and researchers.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="publications">
+        <h2>Selected Publications</h2>
+        <article class="card">
+          <strong>Title of your first paper</strong>
+          <p class="meta">Conference/Journal, 2026 · Co-authors</p>
+          <p>
+            Short summary of the contribution. Replace with your actual publications
+            and links to PDF/code.
+          </p>
+        </article>
+        <article class="card">
+          <strong>Title of your second paper</strong>
+          <p class="meta">Conference/Journal, 2025 · Co-authors</p>
+          <p>
+            Another short summary. You can add a BibTeX toggle or DOI links later.
+          </p>
+        </article>
+      </section>
+
+      <section class="section" id="writing">
+        <h2>Recent Writing</h2>
+        <article class="card">
+          <a href="blog/posts/how-i-structure-a-phd-week.html"><strong>How I Structure a PhD Week</strong></a>
+          <p class="meta">March 2026 · Productivity, Research habits</p>
+        </article>
+        <article class="card">
+          <a href="blog/posts/literature-review-workflow.html"><strong>A Lightweight Literature Review Workflow</strong></a>
+          <p class="meta">February 2026 · Methodology</p>
+        </article>
+        <p><a href="blog/">View all posts →</a></p>
+      </section>
+    </main>
+
+    <footer class="container footer">
+      <p>
+        © <span id="year"></span> Gabriele Martino ·
+        <a href="mailto:you@example.com">you@example.com</a>
+      </p>
+    </footer>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
