@@ -1,19 +1,14 @@
 # gabrielemartino.github.io
 
-Personal website for a PhD student profile with integrated long-form blog posts.
+Personal academic website for Gabriele Martino.
 
 ## Structure
 
 - `index.html`: academic home page (intro bio + photo, research, publications, writing).
 - `blog/index.html`: blog landing page.
-- `blog/posts/*.html`: long-form article pages.
 - `assets/css/style.css`: shared styling.
-- `assets/images/profile-placeholder.svg`: replace with your own portrait.
+- `assets/images/DSCF8296_1.jpg`: profile photo.
 
-## Local preview
+## Bibliography
 
-```bash
-python3 -m http.server 8000
-```
-
-Then open <http://localhost:8000>.
+- Martino, G., & Tschiatschek, S. (2026). *FRInGe: Distribution-Space Integrated Gradients with Fisher–Rao Geometry*. arXiv preprint arXiv:2605.06404. <https://arxiv.org/abs/2605.06404>
