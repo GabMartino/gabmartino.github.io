@@ -6,16 +6,16 @@
     <title>Gabriele Martino | PhD Student</title>
     <meta
       name="description"
-      content="Personal academic website of Gabriele Martino, PhD student. Research updates, publications and blog posts."
+      content="Academic homepage of Gabriele Martino, PhD student working on deep learning, explainable AI and biology."
     />
-    <link rel="stylesheet" href="assets/css/style.css?v=20260907-3" />
+    <link rel="stylesheet" href="assets/css/style.css?v=20260907-4" />
   </head>
   <body>
     <header class="site-header">
       <div class="container nav">
         <a class="brand" href="./">Gabriele Martino</a>
-        <nav class="nav-links">
-          <a href="./">About</a>
+        <nav class="nav-links" aria-label="Primary navigation">
+          <a href="#about">About</a>
           <a href="#research">Research</a>
           <a href="#publications">Publications</a>
           <a href="blog/">Blog</a>
@@ -23,26 +23,9 @@
       </div>
     </header>
 
-    <main class="container">
-      <section class="intro" id="about">
-        <div class="intro-grid">
-          <div class="intro-text">
-            <h1>Gabriele Martino</h1>
-            <p class="subtitle">
-              I am a PhD student in the Probabilistic and Interactive Machine Learning Group at the University of Vienna, supervised by Prof. Sebastian Tschiatschek.
-            </p>
-            <p>
-              I am actively working on Deep Learning and Explainable AI for Biology, building models able to discover the deep secrets of the nature
-              and at the same time unveiling the misteries behind these models.
-            </p>
-            <p class="link-row">
-              <a href="https://scholar.google.com/citations?user=NalFr98AAAAJ&hl=en&authuser=1" target="_blank" rel="noopener noreferrer">Google Scholar</a>
-              ·
-              <a href="https://github.com/GabMartino" target="_blank" rel="noopener noreferrer">GitHub</a>
-              ·
-              <a href="blog/">Blog</a>
-            </p>
-          </div>
+    <main>
+      <section class="container profile-section" id="about">
+        <aside class="profile-identity">
           <div class="intro-photo-wrap">
             <div class="intro-photo-swap">
               <img
@@ -58,60 +41,102 @@
               />
             </div>
           </div>
+
+          <h1>Gabriele Martino</h1>
+          <p class="profile-role">PhD Student in Machine Learning</p>
+          <p class="profile-affiliation">University of Vienna</p>
+
+          <div class="profile-links" aria-label="Academic and professional profiles">
+            <a
+              href="https://scholar.google.com/citations?user=NalFr98AAAAJ&amp;hl=en&amp;authuser=1"
+              target="_blank"
+              rel="noopener noreferrer"
+            >Google Scholar</a>
+            <a href="https://github.com/GabMartino" target="_blank" rel="noopener noreferrer">GitHub</a>
+          </div>
+        </aside>
+
+        <div class="biography">
+          <h2>Bio</h2>
+          <p>
+            I am a PhD student in the Probabilistic and Interactive Machine
+            Learning Group at the University of Vienna, supervised by Prof.
+            Sebastian Tschiatschek.
+          </p>
+          <p>
+            I work on deep learning and explainable AI for biology, building
+            models that can uncover patterns in nature while making their
+            decisions easier to understand.
+          </p>
+
+          <div class="academic-details">
+            <section class="detail-block" id="research">
+              <h3>Interests</h3>
+              <ul class="interest-list">
+                <li>Deep Learning</li>
+                <li>Explainable Artificial Intelligence</li>
+                <li>Machine Learning for Biology</li>
+              </ul>
+            </section>
+
+            <section class="detail-block">
+              <h3>Current Position</h3>
+              <p>
+                <strong>PhD Student</strong><br />
+                Probabilistic and Interactive Machine Learning Group<br />
+                University of Vienna
+              </p>
+            </section>
+          </div>
         </div>
       </section>
 
-      <section class="section" id="publications">
-        <h2>Selected Publications</h2>
+      <section class="section-shell" id="publications">
+        <div class="container">
+          <h2 class="section-title">Selected Publications</h2>
 
-        <article class="card publication-card">
-          <div class="publication-details">
-            <a href="https://arxiv.org/abs/2605.06404" target="_blank" rel="noopener noreferrer">
-              <strong>FRInGe: Distribution-Space Integrated Gradients with Fisher–Rao Geometry</strong>
-            </a>
-            <p class="meta">arXiv, 2026 · Gabriele Martino, Sebastian Tschiatschek</p>
-            <p>
-              A Fisher–Rao-based attribution method that defines references and
-              interpolation in predictive distribution space, improving
-              calibration-oriented explanation metrics across ImageNet models.
-            </p>
-          </div>
-          <figure class="publication-figure">
-            <img
-              src="assets/images/path-preview.png"
-              alt="Diagram of the FRInGe attribution path through predictive and input space"
-            />
-          </figure>
-        </article>
+          <article class="publication-card">
+            <figure class="publication-figure">
+              <img
+                src="assets/images/path-preview.png"
+                alt="Diagram of the FRInGe attribution path through predictive and input space"
+              />
+            </figure>
 
-<!--        <article class="card">-->
-<!--          <strong>Title of your first paper</strong>-->
-<!--          <p class="meta">Conference/Journal, 2026 · Co-authors</p>-->
-<!--          <p>-->
-<!--            Short summary of the contribution. Replace with your actual publications-->
-<!--            and links to PDF/code.-->
-<!--          </p>-->
-<!--        </article>-->
-<!--        <article class="card">-->
-<!--          <strong>Title of your second paper</strong>-->
-<!--          <p class="meta">Conference/Journal, 2025 · Co-authors</p>-->
-<!--          <p>-->
-<!--            Another short summary. You can add a BibTeX toggle or DOI links later.-->
-<!--          </p>-->
-<!--        </article>-->
+            <div class="publication-details">
+              <p class="publication-authors"><strong>Gabriele Martino</strong>, Sebastian Tschiatschek</p>
+              <p class="publication-venue">2026 · arXiv:2605.06404</p>
+              <h3>
+                <a href="https://arxiv.org/abs/2605.06404" target="_blank" rel="noopener noreferrer">
+                  FRInGe: Distribution-Space Integrated Gradients with Fisher–Rao Geometry
+                </a>
+              </h3>
+              <p>
+                A Fisher–Rao-based attribution method that defines references
+                and interpolation in predictive distribution space, improving
+                calibration-oriented explanation metrics across ImageNet models.
+              </p>
+              <div class="publication-links">
+                <a href="https://arxiv.org/abs/2605.06404" target="_blank" rel="noopener noreferrer">Preprint</a>
+              </div>
+            </div>
+          </article>
+        </div>
       </section>
 
-      <section class="section" id="writing">
-        <h2>Recent Writing</h2>
-        <p><a href="blog/">View all posts →</a></p>
+      <section class="container writing-section" id="writing">
+        <div>
+          <h2 class="section-title">Writing</h2>
+          <p>Research notes, tutorials and longer technical pieces.</p>
+        </div>
+        <a class="text-link" href="blog/">Visit the blog <span aria-hidden="true">→</span></a>
       </section>
     </main>
 
-    <footer class="container footer">
-      <p>
-        © <span id="year"></span> Gabriele Martino ·
-<!--        <a href="mailto:you@example.com">you@example.com</a>-->
-      </p>
+    <footer class="site-footer">
+      <div class="container footer-content">
+        <p>© <span id="year"></span> Gabriele Martino</p>
+      </div>
     </footer>
 
     <script>

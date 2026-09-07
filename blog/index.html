@@ -3,37 +3,43 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Blog | Gabriele Martino</title>
+    <title>Writing | Gabriele Martino</title>
     <meta
       name="description"
-      content="Long-form technical notes and PhD reflections by Gabriele Martino."
+      content="Research notes and technical writing by Gabriele Martino."
     />
-    <link rel="stylesheet" href="../assets/css/style.css" />
+    <link rel="stylesheet" href="../assets/css/style.css?v=20260907-4" />
   </head>
   <body>
     <header class="site-header">
       <div class="container nav">
         <a class="brand" href="../">Gabriele Martino</a>
-        <nav class="nav-links">
+        <nav class="nav-links" aria-label="Primary navigation">
           <a href="../#about">About</a>
           <a href="../#research">Research</a>
           <a href="../#publications">Publications</a>
-          <a href="./">Blog</a>
+          <a href="./" aria-current="page">Blog</a>
         </nav>
       </div>
     </header>
 
-    <main class="container section">
-      <h1>Blog</h1>
-      <p class="subtitle">
-        Notes, tutorials, and reflections from my PhD journey. The writing style
-        follows a deep-dive format similar to research-oriented blogs.
-      </p>
+    <main class="container page">
+      <header class="page-heading">
+        <h1>Writing</h1>
+        <p>Research notes, tutorials and reflections from my PhD journey.</p>
+      </header>
 
+      <p class="empty-state">New articles will appear here.</p>
     </main>
 
-    <footer class="container footer">
-      <p>Back to <a href="../">home page</a>.</p>
+    <footer class="site-footer">
+      <div class="container footer-content">
+        <p>© <span id="year"></span> Gabriele Martino</p>
+      </div>
     </footer>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
   </body>
 </html>
