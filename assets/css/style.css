@@ -142,6 +142,25 @@ a:hover {
   margin: 0.9rem 0;
 }
 
+.publication-card {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(180px, 280px);
+  gap: 1rem 1.4rem;
+  align-items: center;
+}
+
+.publication-figure {
+  margin: 0;
+}
+
+.publication-figure img {
+  display: block;
+  width: 100%;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: #ffffff;
+}
+
 .meta {
   color: var(--muted);
   font-size: 0.92rem;
@@ -200,6 +219,14 @@ code {
 
   .intro-photo-swap {
     max-width: 190px;
+  }
+
+  .publication-card {
+    grid-template-columns: 1fr;
+  }
+
+  .publication-figure {
+    max-width: 320px;
   }
 }
 

@@ -8,7 +8,7 @@
       name="description"
       content="Personal academic website of Gabriele Martino, PhD student. Research updates, publications and blog posts."
     />
-    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/style.css?v=20260907" />
   </head>
   <body>
     <header class="site-header">
@@ -64,16 +64,24 @@
       <section class="section" id="publications">
         <h2>Selected Publications</h2>
 
-        <article class="card">
-          <a href="https://arxiv.org/abs/2605.06404" target="_blank" rel="noopener noreferrer">
-            <strong>FRInGe: Distribution-Space Integrated Gradients with Fisher–Rao Geometry</strong>
-          </a>
-          <p class="meta">arXiv, 2026 · Gabriele Martino, Sebastian Tschiatschek</p>
-          <p>
-            A Fisher–Rao-based attribution method that defines references and
-            interpolation in predictive distribution space, improving
-            calibration-oriented explanation metrics across ImageNet models.
-          </p>
+        <article class="card publication-card">
+          <div class="publication-details">
+            <a href="https://arxiv.org/abs/2605.06404" target="_blank" rel="noopener noreferrer">
+              <strong>FRInGe: Distribution-Space Integrated Gradients with Fisher–Rao Geometry</strong>
+            </a>
+            <p class="meta">arXiv, 2026 · Gabriele Martino, Sebastian Tschiatschek</p>
+            <p>
+              A Fisher–Rao-based attribution method that defines references and
+              interpolation in predictive distribution space, improving
+              calibration-oriented explanation metrics across ImageNet models.
+            </p>
+          </div>
+          <figure class="publication-figure">
+            <img
+              src="assets/images/path-preview.png"
+              alt="Diagram of the FRInGe attribution path through predictive and input space"
+            />
+          </figure>
         </article>
 
 <!--        <article class="card">-->
