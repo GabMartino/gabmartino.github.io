@@ -11,4 +11,4 @@ Personal academic website for Gabriele Martino.
 
 ## Bibliography
 
-- Martino, G., & Tschiatschek, S. (2026). *FRInGe: Distribution-Space Integrated Gradients with Fisher–Rao Geometry*. arXiv preprint arXiv:2605.06404. <https://arxiv.org/abs/2605.06404>
+- Martino, G., & Tschiatschek, S. (2026). *FRInGe: Distribution-Space Integrated Gradients with Fisher–Rao Geometry*. NeurIPS 2026 Poster. arXiv preprint arXiv:2605.06404. <https://arxiv.org/abs/2605.06404> · Code: <https://github.com/GabMartino/FRInGe>
