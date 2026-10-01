@@ -279,8 +279,14 @@ h3 {
   align-items: center;
 }
 
+.publication-card + .publication-card {
+  padding-top: clamp(2.5rem, 5vw, 4rem);
+}
+
 .publication-figure {
   margin: 0;
+  overflow: hidden;
+  border-radius: 8px;
 }
 
 .publication-figure img {
@@ -290,6 +296,11 @@ h3 {
   border-radius: 8px;
   background: #ffffff;
   box-shadow: 0 8px 24px rgba(23, 43, 58, 0.1);
+  transition: transform 220ms ease;
+}
+
+.publication-figure:hover img {
+  transform: scale(1.035);
 }
 
 .publication-authors {
@@ -547,7 +558,12 @@ code {
   .intro-photo,
   .nav-links a::after,
   .profile-links a,
-  .publication-links a {
+  .publication-links a,
+  .publication-figure img {
     transition: none;
+  }
+
+  .publication-figure:hover img {
+    transform: none;
   }
 }
